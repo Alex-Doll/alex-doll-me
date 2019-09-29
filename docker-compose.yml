@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  portfolio:
+    build: ./portfolio
+    environment:
+      - PORTFOLIO_PORT=${PORTFOLIO_PORT}
+    expose:
+      - ${PORTFOLIO_PORT}
+    ports:
+      - ${PORTFOLIO_PORT}:${PORTFOLIO_PORT}
+    volumes:
+      - ./portfolio/src:/app/src
+      - ./portfolio/public:/app/public
+    command: npm run start
