@@ -1,0 +1,22 @@
+.about-custom {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 1.1rem;
+}
+
+.about-custom hr {
+  border: 0;
+  height: 1px;
+  margin-bottom: 55px;
+  background-image: linear-gradient(to right, rgba(221, 218, 244, 0), rgba(221, 218, 244, 0.75), rgba(221, 218, 244, 0));
+}
+
+.about-custom .about-important {
+  font-family: 'Cormorant', serif;
+  font-size: 2rem;
+}
+
+.about-custom p {
+  margin-bottom: 40px;
+}
