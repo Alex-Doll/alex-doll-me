@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../Stylesheets/Project.css';
 
-class Project extends Component {
-  render() {
-    const {imgSrc, title, description, linkTo} = this.props;
+function Project(props) {
+    const {imgSrc, title, description, linkTo} = props;
     return (
       <div className='project-custom'>
         <div className='container'>
@@ -18,7 +17,6 @@ class Project extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Project;

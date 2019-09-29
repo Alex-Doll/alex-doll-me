@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Project from './Project';
 import '../Stylesheets/Projects.css';
 import projectsData from '../projectsData';
 
-class Projects extends Component {
-  render() {
+function Projects() {
     const projects = projectsData.map((project, index) => {
       let {imgSrc, title, description, linkTo, technologiesUsed} = project;
       return (
@@ -29,7 +28,6 @@ class Projects extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Projects;

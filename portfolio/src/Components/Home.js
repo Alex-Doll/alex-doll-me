@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../Stylesheets/Home.css';
 
-class Home extends Component {
-  render() {
+function Home() {
     return (
       <section className='jumbotron jumbotron-fluid home-custom'>
         <div className='container text-left'>
@@ -16,7 +15,6 @@ class Home extends Component {
         </div>
       </section>
     );
-  }
 }
 
 export default Home;

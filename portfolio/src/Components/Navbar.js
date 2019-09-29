@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import '../Stylesheets/Navbar.css';
 
-class Navbar extends Component {
-  render() {
+function Navbar() {
     return (
       <nav className='navbar fixed-top navbar-custom'>
         <div className='container'>
@@ -21,7 +20,6 @@ class Navbar extends Component {
         </div>
       </nav>
     );
-  }
 }
 
 export default Navbar;

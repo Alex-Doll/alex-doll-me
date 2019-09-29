@@ -1,11 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import '../Stylesheets/Footer.css';
 
-class Footer extends Component {
-  render() {
-    let {onViewLandingClick} = this.props;
-    
+function Footer({ onViewLandingClick }) {
     return (
       <footer className='navbar fixed-bottom footer-custom'>
         <div className='container'>
@@ -25,7 +22,6 @@ class Footer extends Component {
         </div>
       </footer>
     );
-  }
 }
 
 export default Footer;
