@@ -5,7 +5,7 @@ import yelpCamp from './Images/yelp-camp.png';
 import warbler from './Images/warbler.png';
 import roscoGames from './Images/rosco-games.png';
 
-const projectsData = [
+export const projectsData = [
   {
     imgSrc: rickPic,
     title: 'Rick and Morty Soundboard',
@@ -49,5 +49,3 @@ const projectsData = [
     technologiesUsed: ['JavaScript', 'Game']
   }
 ];
-
-export default projectsData;

@@ -1,14 +1,14 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import '../App.css';
-import Home from './Home';
-import Projects from './Projects';
-import About from './About';
-import Navbar from './Navbar';
-import Landing from './Landing';
-import Footer from './Footer';
+import { Home } from './Home';
+import { Projects } from './Projects';
+import { About } from './About';
+import { Navbar } from './Navbar';
+import { Landing } from './Landing';
+import { Footer } from './Footer';
 
-function App() {
+export function App() {
   const [hasViewedLanding, setHasViewedLanding] = React.useState(false);
 
   return (
@@ -30,5 +30,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

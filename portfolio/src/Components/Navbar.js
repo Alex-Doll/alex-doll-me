@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import '../Stylesheets/Navbar.css';
 
-function Navbar() {
+export function Navbar() {
     return (
       <nav className='navbar fixed-top navbar-custom'>
         <div className='container'>
@@ -21,5 +21,3 @@ function Navbar() {
       </nav>
     );
 }
-
-export default Navbar;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/Project.css';
 
-function Project(props) {
+export function Project(props) {
     const {imgSrc, title, description, linkTo} = props;
     return (
       <div className='project-custom'>
@@ -18,5 +18,3 @@ function Project(props) {
       </div>
     );
 }
-
-export default Project;

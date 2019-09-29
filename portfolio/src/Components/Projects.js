@@ -1,9 +1,9 @@
 import React from 'react';
-import Project from './Project';
+import { Project } from './Project';
 import '../Stylesheets/Projects.css';
-import projectsData from '../projectsData';
+import { projectsData } from '../projectsData';
 
-function Projects() {
+export function Projects() {
     const projects = projectsData.map((project, index) => {
       let {imgSrc, title, description, linkTo, technologiesUsed} = project;
       return (
@@ -29,5 +29,3 @@ function Projects() {
       </div>
     );
 }
-
-export default Projects;

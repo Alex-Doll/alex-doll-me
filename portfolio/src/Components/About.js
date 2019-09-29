@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/About.css';
 
-function About() {
+export function About() {
     return (
       <div className='about-custom'>
         <div className='container text-left'>
@@ -34,5 +34,3 @@ function About() {
       </div>
     );
 }
-
-export default About;

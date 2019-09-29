@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/Home.css';
 
-function Home() {
+export function Home() {
     return (
       <section className='jumbotron jumbotron-fluid home-custom'>
         <div className='container text-left'>
@@ -16,5 +16,3 @@ function Home() {
       </section>
     );
 }
-
-export default Home;

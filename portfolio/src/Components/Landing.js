@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheets/Landing.css';
 
-function Landing({ onFinishedViewing }) {
+export function Landing({ onFinishedViewing }) {
   const [currentSlide, setCurrentSlide] = React.useState(0);
 
   const slide0 = (
@@ -55,5 +55,3 @@ function Landing({ onFinishedViewing }) {
     </div>
   );
 }
-
-export default Landing;
